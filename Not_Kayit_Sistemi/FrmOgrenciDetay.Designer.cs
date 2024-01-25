@@ -38,9 +38,9 @@
 			LblSinav3 = new Label();
 			label9 = new Label();
 			label10 = new Label();
-			lblOrtalama = new Label();
+			LblOrtalama = new Label();
 			label12 = new Label();
-			lblDurum = new Label();
+			LblDurum = new Label();
 			LblNumara = new Label();
 			SuspendLayout();
 			// 
@@ -79,7 +79,6 @@
 			label4.Size = new Size(86, 24);
 			label4.TabIndex = 3;
 			label4.Text = "Sınav 2 :";
-			//label4.Click += label4_Click;
 			// 
 			// label5
 			// 
@@ -135,14 +134,14 @@
 			label10.TabIndex = 9;
 			label10.Text = "Ortalama :";
 			// 
-			// lblOrtalama
+			// LblOrtalama
 			// 
-			lblOrtalama.AutoSize = true;
-			lblOrtalama.Location = new Point(135, 259);
-			lblOrtalama.Name = "lblOrtalama";
-			lblOrtalama.Size = new Size(34, 24);
-			lblOrtalama.TabIndex = 10;
-			lblOrtalama.Text = "00";
+			LblOrtalama.AutoSize = true;
+			LblOrtalama.Location = new Point(135, 259);
+			LblOrtalama.Name = "LblOrtalama";
+			LblOrtalama.Size = new Size(34, 24);
+			LblOrtalama.TabIndex = 10;
+			LblOrtalama.Text = "00";
 			// 
 			// label12
 			// 
@@ -153,14 +152,14 @@
 			label12.TabIndex = 11;
 			label12.Text = "Durum :";
 			// 
-			// lblDurum
+			// LblDurum
 			// 
-			lblDurum.AutoSize = true;
-			lblDurum.Location = new Point(135, 296);
-			lblDurum.Name = "lblDurum";
-			lblDurum.Size = new Size(64, 24);
-			lblDurum.TabIndex = 12;
-			lblDurum.Text = "NULL";
+			LblDurum.AutoSize = true;
+			LblDurum.Location = new Point(135, 296);
+			LblDurum.Name = "LblDurum";
+			LblDurum.Size = new Size(64, 24);
+			LblDurum.TabIndex = 12;
+			LblDurum.Text = "NULL";
 			// 
 			// LblNumara
 			// 
@@ -178,9 +177,9 @@
 			BackColor = Color.FromArgb(255, 224, 192);
 			ClientSize = new Size(398, 468);
 			Controls.Add(LblNumara);
-			Controls.Add(lblDurum);
+			Controls.Add(LblDurum);
 			Controls.Add(label12);
-			Controls.Add(lblOrtalama);
+			Controls.Add(LblOrtalama);
 			Controls.Add(label10);
 			Controls.Add(label9);
 			Controls.Add(LblSinav3);
@@ -212,9 +211,9 @@
 		private Label LblSinav3;
 		private Label label9;
 		private Label label10;
-		private Label lblOrtalama;
+		private Label LblOrtalama;
 		private Label label12;
-		private Label lblDurum;
+		private Label LblDurum;
 		private Label LblNumara;
 	}
 }
