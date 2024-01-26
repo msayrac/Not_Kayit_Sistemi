@@ -50,6 +50,7 @@
 			maskedTextBox1.Size = new Size(144, 30);
 			maskedTextBox1.TabIndex = 1;
 			maskedTextBox1.ValidatingType = typeof(int);
+			maskedTextBox1.TextChanged += maskedTextBox1_TextChanged;
 			// 
 			// button1
 			// 
